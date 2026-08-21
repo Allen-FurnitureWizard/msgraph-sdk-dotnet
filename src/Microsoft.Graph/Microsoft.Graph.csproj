@@ -298,6 +298,7 @@ https://github.com/microsoftgraph/msgraph-sdk-dotnet/blob/main/CHANGELOG.md
     <Compile Include="Generated\Models\CalendarSharingMessage.cs" />
     <Compile Include="Generated\Models\CalendarSharingMessageAction.cs" />-->
     <Compile Include="Generated\Models\DateTimeTimeZone.cs" />
+    <Compile Include="Generated\Models\DirectoryObject.cs" />
     <Compile Include="Generated\Models\EmailAddress.cs" />
     <Compile Include="Generated\Models\Entity.cs" />
     <!--<Compile Include="Generated\Models\Event.cs" />
@@ -332,6 +333,13 @@ https://github.com/microsoftgraph/msgraph-sdk-dotnet/blob/main/CHANGELOG.md
     <!--<Compile Include="Generated\Models\Request.cs" />-->
     <Compile Include="Generated\Models\ResponseType.cs" />
     <Compile Include="Generated\Models\SingleValueLegacyExtendedProperty.cs" />
+    <Compile Include="Generated\Models\User.cs" />
+    <Compile Include="Generated\Users\Item\SendMail\SendMailPostRequestBody.cs" />
+    <Compile Include="Generated\Users\Item\SendMail\SendMailRequestBuilder.cs" />
+    <Compile Include="Generated\Users\Item\UserItemRequestBuilder.cs" />
+    <Compile Include="Generated\Users\UsersRequestBuilder.cs" />
+    <Compile Include="Generated\Users\ValidateProperties\ValidatePropertiesPostRequestBody.cs" />
+    <Compile Include="Generated\Users\ValidateProperties\ValidatePropertiesRequestBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Graph.rd.xml" />

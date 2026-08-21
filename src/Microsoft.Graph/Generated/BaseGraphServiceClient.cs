@@ -74,7 +74,7 @@ using Microsoft.Graph.Me;
 //using Microsoft.Graph.TeamsTemplates;
 //using Microsoft.Graph.Teamwork;
 //using Microsoft.Graph.TenantRelationships;
-//using Microsoft.Graph.Users;
+using Microsoft.Graph.Users;
 //using Microsoft.Graph.UsersWithUserPrincipalName;
 using Microsoft.Kiota.Abstractions.Extensions;
 using Microsoft.Kiota.Abstractions.Store;
@@ -435,11 +435,11 @@ namespace Microsoft.Graph
         //{
         //    get => new global::Microsoft.Graph.TenantRelationships.TenantRelationshipsRequestBuilder(PathParameters, RequestAdapter);
         //}
-        ///// <summary>Provides operations to manage the collection of user entities.</summary>
-        //public global::Microsoft.Graph.Users.UsersRequestBuilder Users
-        //{
-        //    get => new global::Microsoft.Graph.Users.UsersRequestBuilder(PathParameters, RequestAdapter);
-        //}
+        /// <summary>Provides operations to manage the collection of user entities.</summary>
+        public global::Microsoft.Graph.Users.UsersRequestBuilder Users
+        {
+            get => new global::Microsoft.Graph.Users.UsersRequestBuilder(PathParameters, RequestAdapter);
+        }
         ///// <summary>
         ///// Provides operations to manage the collection of application entities.
         ///// </summary>

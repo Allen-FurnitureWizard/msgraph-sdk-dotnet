@@ -445,11 +445,11 @@ namespace Microsoft.Graph.Me
         //{
         //    get => new global::Microsoft.Graph.Me.ScopedRoleMemberOf.ScopedRoleMemberOfRequestBuilder(PathParameters, RequestAdapter);
         //}
-        ///// <summary>Provides operations to call the sendMail method.</summary>
-        //public global::Microsoft.Graph.Me.SendMail.SendMailRequestBuilder SendMail
-        //{
-        //    get => new global::Microsoft.Graph.Me.SendMail.SendMailRequestBuilder(PathParameters, RequestAdapter);
-        //}
+        /// <summary>Provides operations to call the sendMail method.</summary>
+        public global::Microsoft.Graph.Me.SendMail.SendMailRequestBuilder SendMail
+        {
+            get => new global::Microsoft.Graph.Me.SendMail.SendMailRequestBuilder(PathParameters, RequestAdapter);
+        }
         ///// <summary>The serviceProvisioningErrors property</summary>
         //public global::Microsoft.Graph.Me.ServiceProvisioningErrors.ServiceProvisioningErrorsRequestBuilder ServiceProvisioningErrors
         //{
